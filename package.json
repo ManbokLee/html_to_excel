@@ -1,0 +1,16 @@
+{
+  "name": "html_to_excel",
+  "version": "1.0.0",
+  "description": "export excel file by html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "file-saver": "^2.0.2"
+  },
+  "license": "MIT"
+}
