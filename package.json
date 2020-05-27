@@ -1,12 +1,22 @@
 {
-  "name": "html_to_excel",
-  "version": "1.0.0",
+  "name": "simple_html_to_excel",
+  "version": "1.0.1",
   "description": "export excel file by HTML",
-  "main": "index.js",
-  "scripts": {},
-  "keywords": ["html", "excel"],
+  "main": "/dist/main.js",
+  "scripts": {
+    "build:prod": "webpack --mode=production"
+  },
+  "keywords": [
+    "html",
+    "excel"
+  ],
+  "files": [
+    "dist",
+    "src"
+  ],
   "dependencies": {
-    "file-saver": "^2.0.2"
+    "file-saver": "^2.0.2",
+    "webpack": "^4.43.0"
   },
   "repository": {
     "type": "git",
@@ -20,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/ManbokLee/html_to_excel/issues",
     "email": "dlakdks0@gmail.com"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
   }
 }
