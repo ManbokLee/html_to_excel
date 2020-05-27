@@ -1,3 +1,5 @@
+'use strict'
+
 import { saveAs } from 'file-saver'
 const contentType = 'application/vnd.ms-excel;charset=utf-8'
 const htmlTemplate = `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
@@ -34,4 +36,9 @@ export function exportExcelByHtml(html, fileName = 'download.xls', sheetName = '
   if (!html) throw new Error(`warning html`)
   const contents = htmlTemplate.replace('{worksheet}', sheetName).replace('{html}', html)
   saveAs(new Blob(['\ufeff', contents], { type: contentType }), fileName)
+}
+
+export default {
+  exportExcelById: exportExcelById,
+  exportExcelByHtml: exportExcelByHtml
 }

@@ -1,8 +1,8 @@
 {
   "name": "simple_html_to_excel",
-  "version": "1.0.2",
+  "version": "1.0.10",
   "description": "export excel file by HTML",
-  "main": "/dist/main.js",
+  "main": "dist/main.js",
   "scripts": {
     "build:prod": "webpack --mode=production"
   },
