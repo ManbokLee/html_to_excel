@@ -32,11 +32,11 @@ function download(id) {
 
 ### methods
  - exportExcelById
-  - Download Excel file by element uniq id
+    - Download Excel file by element uniq id
 
 
  - exportExcelByHtml
-  - Download Excel file by HTML text *(element.innerHTML)*
+    - Download Excel file by HTML text *(element.innerHTML)*
 
 ### arguments
  - exportExcelById  
