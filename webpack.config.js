@@ -6,6 +6,6 @@ module.exports = {
     library: 'html_to_excel',
     libraryTarget: 'umd',
     filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
-  },
-};
+    path: path.resolve(__dirname, 'dist')
+  }
+}

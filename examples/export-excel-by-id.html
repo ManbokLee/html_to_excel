@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script type="module" src="https://unpkg.com/simple_html_to_excel@latest/dist/main.js" charset="utf-8"></script>
+</head>
+
+<body>
+	<button type="button" name="button" onClick="download('sample-a')">Download</button>
+	<div id="sample-a">
+	</div>
+	<script type="text/javascript">
+		function download(id) {
+			html_to_excel.exportExcelById(id)
+		}
+	</script>
+</body>
+
+</html>
