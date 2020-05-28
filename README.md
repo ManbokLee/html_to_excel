@@ -40,6 +40,7 @@ function download(id) {
 
 ### arguments
  - exportExcelById  
+ 
 | argument | required | type |  default |
 |---|---|---|---|
 | elementId | true | string | - |
@@ -47,6 +48,7 @@ function download(id) {
 | sheetName | false | string | Worksheet |
 
  - exportExcelByHtml
+ 
  | argument | required | type |  default |
  |---|---|---|---|
  | html | true | string | - |
