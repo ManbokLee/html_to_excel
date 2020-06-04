@@ -2,17 +2,13 @@
 
 export Excel file in HTML element contents.
 
-### install
+## install
 ```
 npm install simple_html_to_excel --save
 
-import { exportExcelById } from 'simple_html_to_excel'
-
-exportExcelById('element_id', 'file_name.xls')
-
 ```
 
-### use
+## use
 ```
 import { exportExcelById } from 'simple_html_to_excel'
 
@@ -30,7 +26,7 @@ function download(id) {
 </script>
 ```
 
-### methods
+## methods
  - exportExcelById
    * Download Excel file by element uniq id
 
@@ -38,9 +34,9 @@ function download(id) {
  - exportExcelByHtml
    * Download Excel file by HTML text *(element.innerHTML)*
 
-### arguments
+## arguments
  - exportExcelById  
- 
+
 | argument | required | type |  default |
 |---|---|---|---|
 | elementId | true | string | - |
@@ -48,7 +44,7 @@ function download(id) {
 | sheetName | false | string | Worksheet |
 
  - exportExcelByHtml
- 
+
  | argument | required | type |  default |
  |---|---|---|---|
  | html | true | string | - |
@@ -56,7 +52,7 @@ function download(id) {
  | sheetName | false | string | Worksheet |
 
 
-#### warning
+## warning
  - Only simple type exports
  - Displayed in a better format when using table elements.
  - Excel notification(type error) is displayed when you open the downloaded file.
